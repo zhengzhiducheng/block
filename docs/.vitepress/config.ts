@@ -166,12 +166,93 @@ export default defineConfig({
           collapsed:true,
           items:[
             {
+              text:'api',
+              link:'/node/press/api'
+            },
+            {
+              text:'事件环',
+              link:'/node/press/eventLoop'
+            },
+            {
               text:'nodePress',
               link:'/node/press/nodePress'
             },
             {
               text:'pm2',
               link:'/node/press/pm2'
+            },
+            {
+              text:'流',
+              link:'/node/press/stream'
+            }
+          ]
+        },
+        {
+          text:'buffer',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'进制',
+              link:'/node/buffer/system'
+            },
+            {
+              text:'api',
+              link:'/node/buffer/api'
+            },
+            {
+              text:'读写',
+              link:'/node/buffer/rw'
+            }
+          ]
+        },
+        {
+          text:'stream',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'流使用',
+              link:'/node/stream/use'
+            },
+            {
+              text:'可读流',
+              link:'/node/stream/read'
+            },
+            {
+              text:'可写流',
+              link:'/node/stream/write'
+            },
+            {
+              text:'管道',
+              link:'/node/stream/pipe'
+            },
+            {
+              text:'io操作',
+              link:'/node/stream/io'
+            },
+            {
+              text:'可读流源码',
+              link:'/node/stream/rTarget'
+            },
+            {
+              text:'可写流源码',
+              link:'/node/stream/wTarget'
+            }
+          ]
+        },
+        {
+          text:'fs',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'文件创建',
+              link:'/node/fs/create'
+            },
+            {
+              text:'文件删除',
+              link:'/node/fs/remove'
             }
           ]
         }
