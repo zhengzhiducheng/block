@@ -78,6 +78,14 @@ export default defineConfig({
             {
               text:'events',
               link:'/node/module/event'
+            },
+            {
+              text:'httpServer',
+              link:'/node/module/httpServer'
+            },
+            {
+              text:'koa',
+              link:'/node/module/koa'
             }
           ]
         },
@@ -131,6 +139,18 @@ export default defineConfig({
             {
               text:'header的应用',
               link:'/node/http/header'
+            },
+            {
+              text:'tcp',
+              link:'/node/http/tcp'
+            },
+            {
+              text:'tcp通信',
+              link:'/node/http/tcpPhone'
+            },
+            {
+              text:'http',
+              link:'/node/http/http'
             }
           ]
         },
