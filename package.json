@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "deploy.sh",
     "docs:dev": "vitepress dev docs --host 0.0.0.0",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"

@@ -86,7 +86,19 @@ export default defineConfig({
             {
               text:'koa',
               link:'/node/module/koa'
-            }
+            },
+            {
+              text:'koa分析',
+              link:'/node/module/koaFx'
+            },
+            {
+              text:'koaMiddleware',
+              link:'/node/module/koaMiddleware'
+            },
+            {
+              text:'express',
+              link:'/node/module/express'
+            },
           ]
         },
         {
