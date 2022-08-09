@@ -149,6 +149,10 @@ export default defineConfig({
           collapsed:true,
           items:[
             {
+              text:'note',
+              link:'/node/http/note'
+            },
+            {
               text:'header的应用',
               link:'/node/http/header'
             },
@@ -178,6 +182,10 @@ export default defineConfig({
             {
               text:'jwt',
               link:'/node/jwt/use'
+            },
+            {
+              text:'note',
+              link:'/node/cookSession/note'
             }
           ]
         },
@@ -285,6 +293,29 @@ export default defineConfig({
             {
               text:'文件删除',
               link:'/node/fs/remove'
+            }
+          ]
+        },
+        {
+          text:'mongo',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'model',
+              link:'/node/mongo/model'
+            },
+            {
+              text:'mongoose',
+              link:'/node/mongo/mongoose'
+            },
+            {
+              text:'plugin',
+              link:'/node/mongo/plugin'
+            },
+            {
+              text:'note',
+              link:'/node/mongo/note'
             }
           ]
         }
