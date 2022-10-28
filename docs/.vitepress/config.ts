@@ -318,11 +318,87 @@ export default defineConfig({
               link:'/node/mongo/note'
             }
           ]
+        },
+        {
+          text:'工具',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'imgToBase64',
+              link:'/node/tool/imgToBase64'
+            }
+          ]
         }
+      ],
+      '/vue/': [
+        {
+          text:'vue核心',
+          collapsible:true,
+          collapsed:false,
+          items: [
+            {
+              text:'reactivityGlobal',
+              link:'/vue/vue/reactivityGlobal'
+            },
+            {
+              text:'reactive',
+              link:'/vue/vue/reactive'
+            },
+            {
+              text:'compilerCoreglobal',
+              link:'/vue/vue/compilerCoreglobal'
+            },
+            {
+              text:'compilerCore',
+              link:'/vue/vue/compilerCore'
+            },
+            {
+              text:'runtimeCoreGlobal',
+              link:'/vue/vue/runtimeCoreGlobal'
+            },
+            {
+              text:'runtimeCore',
+              link:'/vue/vue/runtimeCore'
+            },
+            {
+              text:'runtimeDomGlobal',
+              link:'/vue/vue/runtimeDomGlobal'
+            },
+            {
+              text:'runtimeDom',
+              link:'/vue/vue/runtimeDom'
+            },
+            {
+              text:'shared',
+              link:'/vue/vue/shared'
+            }
+          ]
+        },
+        {
+          text:'pinia',
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              text:'soure',
+              link:'/vue/pinia/soure'
+            },
+            {
+              text:'store',
+              link:'/vue/pinia/store'
+            },
+            {
+              text:'index',
+              link:'/vue/pinia/index'
+            }
+          ]
+        },
       ]
     },
-    nav:[
-      {text:'node文档',link:'/node/'},
+    nav: [
+      {text:'vue文档',link:'/vue/vue/reactivityGlobal'},
+      {text:'node文档',link:'/node/gaoJie/hanShu'},
       {text:'我的',link:'/my/'}
     ],
     socialLinks: [
